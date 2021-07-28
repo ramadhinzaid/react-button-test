@@ -1,0 +1,58 @@
+.layout {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  p {
+    margin: 0px;
+    color: white;
+  }
+  .base {
+    height: 100vh;
+    background-image: url("https://d3hctp6gkh4e3f.cloudfront.net/prod/z4xidvunqma5n2jon3po");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .base-img {
+    width: 120px;
+    img {
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+  }
+  .profil-section {
+    p {
+      font-size: 18px;
+      text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    p.shop-name{
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  .button-section {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(65, 109, 73, 0.6);
+    height: 56px;
+    // border: 2px solid #416d49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    p {
+      font-weight: 600;
+      color: white;
+    }
+  }
+  .button-section:hover {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+      color: #416d49;
+    }
+  }
+}

@@ -1,13 +1,12 @@
-import React from 'react'
-import "assets/scss/style.scss"
-// import Button from './elements/Button'
-
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "pages/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      Halo
-    </div>
+    <Router>
+      <Navbar/>
+    </Router>
   );
 }
 
